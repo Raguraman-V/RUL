@@ -522,8 +522,4 @@ print(report)
 final_df
 final_df.to_csv('to_azure.csv')
 
-import joblib
-
-filename = 'best_model.sav'
-joblib.dump(rf2, filename)
 
